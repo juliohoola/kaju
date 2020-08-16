@@ -39,9 +39,9 @@
 						</div>
 					</li>
 					<li class="nav-item">
-						<a href="chat" class="nav-link">Chat</a>
+						<a href="#pqrs" class="nav-link">PQRS</a>
 					</li>
-					<button id="regreso" type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"><i class="fas fa-user-circle"></i></span>    Iniciar Sesión</button>			
+					<button id="regreso"  type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"><i class="fas fa-user-circle"></i></span>    Iniciar Sesión</button>			
 				</ul>
 			</div>
 			<a href="" class="navbar-brand ml-auto">
@@ -348,6 +348,35 @@
 																</div>
 															</div>
 														</section>
+
+														<section id="pqrs" class="page-section gris-claro">
+	<div class="container">
+		<h2 class="text-center">PQRS</h2>
+		<hr class="divider">
+		<p>Dejanos tu petición, queja o recurso </p>
+		<form method="post" action="#">
+			<div class="form-group">
+				<label for="nombres">Nombres:</label>
+				<imput type="text" name="nombres" class="form-control" required="">
+			</div>
+			<div class="form-group">
+				<label for="apellidos">Apellidos:</label>
+				<imput type="text" name="apellidos" class="form-control" required="">
+			</div>
+			<div class="form-group">
+				<label for="correo">Correo Electrónico:</label>
+				<imput type="email" name="correo" class="form-control" required="">
+			</div>
+			<div class="form-group">
+				<label for="mensaje">Inquietud:</label>
+				<textarea class="form-control" required=""></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Enviar</button>
+
+			<small id="emailHelp" class="form-text text-muted">Tu inquietud será contestada en los siguientes 7 dias hábiles</small>
+
+		</form>
+	</div>
 
 
 														<footer class="navbar-dark bg-dark">
